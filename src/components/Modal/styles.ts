@@ -24,8 +24,8 @@ export const Content = styled(Dialog.Content)`
   transform: translate(-50%, -50%);
 
   @media (max-width: 576px) {
-    /* max-width: 22rem; */
-    width: 60%;
+    max-width: 22rem;
+    width: 100%;
     height: auto;
   }
 
@@ -35,13 +35,13 @@ export const Content = styled(Dialog.Content)`
     align-items: center;
 
     @media (max-width: 576px) {
-      padding: 20px 0;
+      /* padding: 20px 0; */
     }
 
     img {
       position: relative;
       right: -2.5rem;
-      max-width: 10rem;
+      max-width: 7rem;
       width: 100%;
     }
   }
