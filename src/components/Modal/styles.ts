@@ -41,7 +41,7 @@ export const Content = styled(Dialog.Content)`
     img {
       position: relative;
       right: -2.5rem;
-      max-width: 11.313rem;
+      max-width: 10rem;
       width: 100%;
     }
   }
