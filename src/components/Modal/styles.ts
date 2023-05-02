@@ -24,8 +24,8 @@ export const Content = styled(Dialog.Content)`
   transform: translate(-50%, -50%);
 
   @media (max-width: 576px) {
-    max-width: 22rem;
-    width: 100%;
+    /* max-width: 22rem; */
+    width: 60%;
     height: auto;
   }
 
